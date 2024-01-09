@@ -2,7 +2,7 @@ SRCS = $(wildcard *.cpp)
 PROGS = $(patsubst %.cpp,%,$(SRCS))
 
 CC = g++
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g
 
 all : $(PROGS)
 
